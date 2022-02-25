@@ -2,7 +2,6 @@ import { Button, Pagination, Container, TextField, Stack, Link } from '@mui/mate
 import axios from 'axios';
 import React, { useState } from 'react';
 import { useEffect } from 'react';
-
 const BASE_URL = 'http://hn.algolia.com/api/v1/search?'
 
 function App() {
